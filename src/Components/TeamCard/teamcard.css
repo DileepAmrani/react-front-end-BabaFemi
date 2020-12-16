@@ -1,0 +1,31 @@
+
+._teamTitle{
+    text-align: center;
+    color: rgb(250, 249, 249);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+.teamCardDiv{
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    border-radius: 10px;
+}
+._colorBox{
+    background-color: rgba(121, 118, 118, 0.657);;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex: 1;
+     
+    justify-content: center;
+    align-items: center;
+}
+._stars{
+    height: 5px !important;
+
+}

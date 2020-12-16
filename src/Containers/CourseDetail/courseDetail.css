@@ -1,0 +1,244 @@
+/** @format */
+
+._courseHeader {
+  background-image: url("./../../Images/photo-1560317620-1ba88ae56e7b.jpg");
+  padding-top: 30px;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+._pagesNamesDiv {
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+._coursePageName {
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+}
+._HomePageName {
+  font-family: 'Lato', sans-serif;
+}
+._pageTitle {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.detailCardHeader {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+.instructorName {
+  font-weight: 500;
+  display: block;
+  margin: "5px";
+  font-family: 'Lato', sans-serif;
+}
+.titlebox {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+.categary {
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  width: 15%;
+  margin-left: 70%;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -20px;
+  font-family: 'Lato', sans-serif;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+._ratingsDiv {
+  display: flex;
+  margin-top: -30px;
+  font-family: 'Lato', sans-serif;
+}
+._detailProjects {
+  background-color: #e1e3e7;
+  color: grey;
+  font-size: 12px;
+  padding: 1px;
+  margin-left: 3%;
+  border-radius: 2px;
+  width: 6%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+._detailImage {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+._priceDiv {
+  background-color: #e1e3e7;
+  width: 80%;
+  padding: 8%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+._courseDetailTitle {
+  color: grey;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+._priceTxt1 {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  margin-top: -15px;
+}
+._buyCourseBtn {
+  border: none;
+  background-color: orangered;
+  padding: 4%;
+  width: 80%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+._durationIcon {
+  background-color: #5f98d1;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._lectureIcon{
+  background-color: rebeccapurple;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._userIcon{
+  background-color: orangered;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._videoIcon{
+  background-color: lightseagreen;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._skillnIcon{
+  background-color: brown;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._languageIcon{
+  background-color: darkturquoise;
+  border-radius: 50px;
+  padding: 2%;
+  margin-left: 15%;
+  font-family: 'Lato', sans-serif;
+}
+._coursesDetailDiv {
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.courseDurationDiv {
+  width: 80%;
+  padding: 5%;
+  border: 2px solid #e1e3e7;
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  cursor: pointer;
+}
+._txt1 {
+  color: grey;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  margin-left: 5%;
+}
+._txt2 {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  margin-left: 5%;
+}
+._otherCoursesDiv {
+  border: 2px solid #e1e3e7;
+  padding: 4%;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+._newCourseImg{
+  width: 95%;
+  height: 80px;
+}
+._newCoursesTitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+._ratingsDiv2{
+  margin-top: -8px;
+}
+._trainerNameDiv{
+  font-family: 'Lato', sans-serif;
+  margin-top: -5px;
+}
+._trainerName{
+  margin-left: 4%;
+  color: aquamarine;
+}
+._newCourseName{
+  font-family: 'Lato', sans-serif;
+  margin-top: 5px;
+}
+._newCoursesDiv{
+  border-bottom: 1px solid #e1e3e7;
+  padding: 2%;
+  width: 97%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .categary{
+    width: 30%;
+    margin-top: 1px;
+  }
+  ._detailProjects{
+    width: 10%;
+  }
+  ._priceDiv{
+    width: 90%;
+  }
+  .courseDurationDiv{
+    width: 90%;
+  }
+  ._otherCoursesDiv{
+    width: 90%;
+  }
+  ._pageTitle{
+    font-size: 35px;
+  }
+  ._detailImage{
+    height: 200px;
+  }
+  ._newCourseImg{
+    height: 120px;
+  }
+}

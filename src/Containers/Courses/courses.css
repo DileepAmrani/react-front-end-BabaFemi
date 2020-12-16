@@ -1,0 +1,96 @@
+/** @format */
+
+._courseHeader {
+  background-image: url("./../../Images/photo-1560317620-1ba88ae56e7b.jpg");
+  padding-top: 30px;
+}
+._pagesNamesDiv {
+  color: white;
+  text-align: center;
+}
+._coursePageName {
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+}
+._HomePageName {
+  font-family: 'Lato', sans-serif;
+}
+._pageTitle {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+._courseSearchDiv {
+  background-image: url("./../../Images/photo-1560317620-1ba88ae56e7b.jpg");
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+._courseInputDiv {
+  background-color: white;
+  border-radius: 50px;
+  padding: 3%;
+  font-family: 'Lato', sans-serif;
+}
+._courseInputDiv1 {
+  background-color: white;
+  border-radius: 50px;
+  padding: 2%;
+  font-family: 'Lato', sans-serif;
+}
+._courseInput1 {
+  width: 85%;
+  border: none;
+  outline: none !important;
+  font-size: 12px;
+  margin-left: 1%;
+}
+._courseInput {
+  width: 80%;
+  border: none;
+  outline: none !important;
+  font-size: 12px;
+}
+._courselocationIcon {
+  margin-left: 1%;
+}
+._courseSearchBtn {
+  border: none;
+  background-color: #5f98d1;
+  border-radius: 50px;
+  width: 41%;
+  height: 32px;
+}
+._courseCardDiv {
+  margin-top: 20px;
+}
+
+._paginationClass {
+  margin: auto !important;
+  width: 20%;
+}
+._pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  ._courseSearchDiv {
+    width: 100%;
+  }
+  ._courseSearchBtn {
+    width: 70%;
+    height: 32px;
+  }
+  ._paginationClass {
+    margin: auto !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  ._courseHeader {
+    background-image: url("./../../Images/photo-1560317620-1ba88ae56e7b.jpg");
+    padding-top: 70px !important;
+  }
+}

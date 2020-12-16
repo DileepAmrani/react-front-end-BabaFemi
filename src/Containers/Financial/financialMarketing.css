@@ -1,0 +1,246 @@
+/** @format */
+
+._subnavbarDiv {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  border-bottom: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  margin-top: 60px;
+}
+._midSec {
+  width: 100%;
+  padding: 3%;
+  border: 1px solid gainsboro;
+}
+._midSecTitle {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 20px;
+}
+._financialCard {
+  max-height: 94vh;
+  overflow-y: scroll;
+}
+._navbarFirstSec {
+  width: 60%;
+}
+._financialCard::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  width: 15px;
+}
+._financialCard::-webkit-scrollbar-track {
+  background: rgb(235, 233, 233);
+}
+._financialCard::-webkit-scrollbar-thumb {
+  background-color: #d2d2d2;
+  border-radius: 20px;
+  border: 3px solid rgb(235, 233, 233);
+  height: 10px;
+}
+._video {
+  width: 80% !important;
+  /* height: 100% !important; */
+  margin: auto;
+}
+._ink1 {
+  color: dodgerblue;
+  margin-left: 1%;
+  cursor: pointer;
+
+}
+._ink2 {
+  color: #d2d2d2;
+  margin-left: 1%;
+}
+._ink3 {
+  color: dodgerblue;
+  margin-left: 1%;
+}
+._ink4 {
+  color: #d2d2d2;
+  margin-left: 1%;
+}
+._ink5 {
+  margin-left: 1%;
+}
+._ink6 {
+  margin: 7px;
+}
+._ink7 {
+  /* margin-right: 2%; */
+}
+._ink8 {
+  /* margin-right: 2%; */
+}
+._videoCaptionDiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  padding: 1%;
+  border-bottom: 1px solid #d2d2d2;
+}
+._downoadDropDown {
+  border: none;
+  background-color: #d2d2d2;
+  color: grey;
+  padding: 2px;
+  margin-left: 2%;
+  font-size: 12px;
+}
+._saveDiv {
+  width: 50%;
+}
+._saveNoteTxt {
+  color: grey;
+  font-size: 12px;
+  margin-left: 2%;
+}
+._likeIcon {
+  margin: 2px;
+  cursor: pointer;
+}
+._noteDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+._noteTxt {
+  color: grey;
+  font-family: 'Lato', sans-serif;
+}
+._allNotesTxt {
+  color: blue;
+  font-size: 12px;
+}
+._thirdSec {
+  text-align: center;
+}
+._addIcon {
+  margin: 3px;
+}
+._notePara {
+  font-size: 12px;
+  color: grey;
+  text-align: left;
+  padding: 7%;
+  font-family: 'Lato', sans-serif;
+}
+._languageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+._languageDropdown {
+  border: none;
+  background-color: #d2d2d2;
+  padding: 5px;
+  width: 30%;
+  color: black;
+  outline: none !important;
+  font-family: 'Lato', sans-serif;
+}
+._helpTxt {
+  color: blue;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+._noteDiv1{
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5),1px 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  text-align: justify;
+  margin-top: 5px;
+  color: grey;
+  width: 90%;
+}
+._popOver{
+  width: 95%;
+  padding: 5%;
+  margin: auto;
+  text-align: center;
+}
+._titleInput{
+  width: 80%;
+}
+._desInput{
+  width: 99%;
+   margin-top: 10px;
+}
+.noteButton{
+  width: 40%;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+}
+
+._thirdSec::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  width: 15px;
+}
+._thirdSec::-webkit-scrollbar-track {
+  background: rgb(235, 233, 233);
+}
+._thirdSec::-webkit-scrollbar-thumb {
+  background-color: #d2d2d2;
+  border-radius: 20px;
+  border: 3px solid rgb(235, 233, 233);
+  height: 10px;
+}
+@media only screen and (max-width: 600px) {
+  ._video {
+    width: 100%;
+    border: 2px solid black;
+  }
+  ._midSec {
+      padding: 2%;
+  }
+  ._videoCaptionDiv {
+    width: 100%;
+    margin-top: 20px;
+  }
+  ._saveDiv{
+      width: 60%;
+  } 
+  ._languageDropdown{
+      width: 50%;
+  }
+  ._languageDiv{
+      width: 80%;
+  }
+  ._navbarDiv{
+      flex-direction: column;
+      text-align: center;
+  }
+  ._navbarFirstSec{
+      text-align: center;
+      margin: auto;
+      width: 90%;
+      margin-bottom: 10px;
+  }
+  ._noteDiv1{
+    width: 100%;
+    margin-top: 10px;
+    padding: 1%;
+  }
+}

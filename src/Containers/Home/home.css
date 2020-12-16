@@ -1,0 +1,166 @@
+/** @format */
+
+._headerDiv {
+  background-image: url("./../../Images/photo-1463171379579-3fdfb86d6285.jpg");
+  background-position: center;
+  background-size: cover;
+
+  font-family: 'Lato', sans-serif;
+}
+._headerColorBox{
+  background-color: rgba(122, 122, 122, 0.459);;
+  height: 100%;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+._headerTitle {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+._headerSubTxt1 {
+  color: dodgerblue;
+}
+._headerDes {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.inputDiv {
+  background-color: white;
+  border-radius: 50px;
+  padding: 4%;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.inputDiv1 {
+  background-color: white;
+  border-radius: 50px;
+  padding: 3%;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+._input1 {
+  width: 85%;
+  border: none;
+  outline: none !important;
+  font-size: 12px;
+  margin-left: 1%;
+}
+._input {
+  width: 80%;
+  border: none;
+  outline: none !important;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+
+}
+._locationIcon {
+  margin-left: 1%;
+}
+._para1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-top: 30px;
+  color: grey;
+}
+._para2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -15px;
+}
+._para3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  width: 40%;
+  margin: auto;
+  color: grey;
+}
+._card {
+  text-align: center;
+  margin-top: 30px;
+}
+._teamCard {
+  margin-top: 20px;
+}
+
+._howItWorks{
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+._teamdiv {
+  background-color: #e1e3e7;
+  text-align: center;
+  margin-top: 30px;
+  /* padding-bottom: 20px; */
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+._viewAllBtn {
+  margin-top: 20px;
+  border: none;
+  background-color: #5f98d1;
+  padding: 7px;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+}
+._searchBtn {
+  border: none;
+  background-color: #5f98d1;
+  border-radius: 50px;
+  /* padding: 4%; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+._serviceCardDiv {
+  margin-top: 20px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+._sideBarDiv {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  ._para3 {
+    width: 90%;
+  }
+  ._searchBtn {
+    width: 60%;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  ._sideBarDiv {
+    display: block;
+  }
+  ._navbarDiv {
+    display: none !important;
+  }
+}

@@ -1,0 +1,30 @@
+.__financialCardDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    cursor: pointer;
+}
+.__financialCardDiv:hover{
+    background-color: #d2d2d2;
+}
+.__financialCardDiv:focus{
+   border-color: grey;
+   border-left: 3px solid green;
+}
+._financialCardTxt{
+    font-size: 13px;
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+   width: 90%;
+}
+._financialCardTite{
+    margin-left: 4%;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+._shareTxt{
+    color: blue;
+    font-size: 12px;
+    margin: 3px;
+}

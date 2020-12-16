@@ -1,0 +1,105 @@
+/** @format */
+
+._tabs {
+  background-color: #e1e3e7;
+  color: grey !important;
+}
+._tabLink {
+  text-decoration: none !important;
+  color: grey !important;
+  padding: 2% !important;
+}
+._tabLink:hover {
+  background-color: lightseagreen !important;
+}
+._tabLink:focus{
+    background-color: lightseagreen !important;
+}
+/* ._tab{
+    text-align: center;
+} */
+#uncontrolled-tab-example{
+    background-color: dodgerblue;
+    border: 1px solid black !important;
+}
+
+._curriculumHeading{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+._curriculumDes{
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    width: 80%;
+    line-height:30px;
+}
+._previewDiv{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+._previewVideoIcon{
+    background-color: rebeccapurple;
+    border-radius: 50px;
+    padding: 1%;
+}
+._previewQuizIcon{
+    background-color: brown;
+    border-radius: 50px;
+    padding: 1%;  
+}
+._previewTechIcon{
+    background-color: orangered;
+    border-radius: 50px;
+    padding: 1%; 
+}
+._previewTxt1{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2%;
+    font-size: 14px;
+}
+._previewDiv1{
+    width: 70%;
+}
+._previewTxt2{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2%;
+    color: grey;
+    font-size: 14px;
+}
+._previewTxt3{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+._previewDiv1{
+    width: 70%;
+}
+._previewTxt1{
+    font-size: 12px;
+    margin-left: 3%;
+}
+._previewTxt2{
+    font-size: 12px;
+}
+._previewTxt3{
+    font-size: 12px;
+    margin-top: 5px;
+}
+._previewVideoIcon{
+    padding: 2%;
+}
+._previewQuizIcon{
+    padding: 2%;
+}
+._curriculumDes{
+    width: 100%;
+}
+  }

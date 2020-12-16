@@ -1,0 +1,21 @@
+[debug] [2020-12-05T14:09:42.725Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T14:09:42.737Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kailash\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-05T14:09:42.739Z] CLI Version:   8.1.1
+[debug] [2020-12-05T14:09:42.740Z] Platform:      win32
+[debug] [2020-12-05T14:09:42.740Z] Node Version:  v14.2.0
+[debug] [2020-12-05T14:09:42.745Z] Time:          Sat Dec 05 2020 19:09:42 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-12-05T14:09:42.746Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T14:09:42.746Z] 
+[debug] [2020-12-05T14:09:42.802Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-05T14:09:42.804Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\React\react-front-end-BabaFemi
+
